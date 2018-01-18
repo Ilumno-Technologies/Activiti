@@ -183,7 +183,7 @@ activitiApp.config(['$provide', '$routeProvider', '$translateProvider', function
             if (proposedLanguage !== 'de' && proposedLanguage !== 'en' && proposedLanguage !== 'es' && proposedLanguage !== 'fr'
                 && proposedLanguage !== 'it' && proposedLanguage !== 'ja') {
                 
-                $translate.use('en');
+                $translate.use('es');
             }
             
             // Common model (eg selected tenant id)

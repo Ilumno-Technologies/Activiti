@@ -257,21 +257,21 @@ activitiModeler
                     'title': 'GENERAL.NAVIGATION.PROCESSES',
                     'path': '/processes'
                 },
-                {
-                    'id': 'forms',
-                    'title': 'GENERAL.NAVIGATION.FORMS',
-                    'path': '/forms'
-                },
+//                {
+//                    'id': 'forms',
+//                    'title': 'GENERAL.NAVIGATION.FORMS',
+//                    'path': '/forms'
+//                },
                 {
                     'id': 'decision-tables',
                     'title': 'GENERAL.NAVIGATION.DECISION-TABLES',
                     'path': '/decision-tables'
                 },
-                {
-                    'id': 'apps',
-                    'title': 'GENERAL.NAVIGATION.APPS',
-                    'path': '/apps'
-                }
+//                {
+//                    'id': 'apps',
+//                    'title': 'GENERAL.NAVIGATION.APPS',
+//                    'path': '/apps'
+//                }
             ];
 
             $rootScope.config = ACTIVITI.CONFIG;

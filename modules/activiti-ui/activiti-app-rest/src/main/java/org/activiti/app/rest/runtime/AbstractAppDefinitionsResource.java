@@ -50,8 +50,8 @@ public abstract class AbstractAppDefinitionsResource {
     resultList.add(kickstartAppDefinitionRepresentation);
 
     // Default app: tasks and IDM (available for all)
-    resultList.add(taskAppDefinitionRepresentation);
-    resultList.add(idmAppDefinitionRepresentation);
+    // resultList.add(taskAppDefinitionRepresentation);
+     resultList.add(idmAppDefinitionRepresentation);
 
     // Custom apps
     Map<String, Deployment> deploymentMap = new HashMap<String, Deployment>();

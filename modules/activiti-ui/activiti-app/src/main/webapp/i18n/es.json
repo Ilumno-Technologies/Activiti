@@ -1,0 +1,99 @@
+{
+  "GENERAL": {
+    "MAIN-TITLE": "Activiti",
+    "ERROR": {
+      "GENERIC": "Lo sentimos, ha ocurrido un error...",
+      "UNKNOWN": "Lo sentimos, ha ocurrido un error mientras se realiza la operación solicitada.",
+      "BAD_REQUEST": "Ha ocurrido un error mientras se realiza la operación solicitada",
+      "NOT_FOUND": "El recurso que está intentando acceder no existe",
+      "UNAUTHORIZED": "Usted debe firmar en el fin de realizar la operación solicitada.",
+      "FORBIDDEN": "No se permite realizar la operación solicitada",
+      "INTERNAL_SERVER_ERROR": "Lo siento, un error inesperado ocurrió mientras se realiza la operación solicitada.",
+      "QUOTA-EXCEEDED-RUNTIME-APPS": "Como una prueba de usuario, sólo puede tener {{quota}} aplicaciones desplegadas en el mismo tiempo.",
+      "QUOTA-EXCEEDED-LICENSE-APPS": "La licencia sólo permite {{quota}} aplicaciones desplegadas en el mismo tiempo."
+    },
+    "ACTION": {
+      "LOGOUT": "Señal de salida: ",
+      "HELP": "Introducción",
+      "EDIT-PROFILE": "Editar perfil",
+      "SAVE": "Guardar",
+      "CANCEL": "Cancelar",
+      "CLOSE": "Cerrar",
+      "DEPLOY": "Implementar",
+      "ABOUT": "Sobre Alfresco Activiti"
+    }
+  },
+  "LOGIN": {
+    "TITLE": "Signo en",
+    "USERNAME": "Nombre de usuario",
+    "USERNAME-PLACEHOLDER": "Introduzca su nombre de usuario",
+    "PASSWORD": "Contraseña",
+    "PASSWORD-PLACEHOLDER": "Introduzca su contraseña",
+    "INVALID-CREDENTIALS": "Las credenciales no son válidas",
+    "ACTION": {
+      "CONFIRM": "Signo en"
+    }
+  },
+  "ACCOUNT": {
+    "ACTIVATE": {
+      "TITLE": "Activar cuenta",
+      "ACTIVATING-MESSAGE": "Agárrate fuerte {{userFullName}} estamos activación de su cuenta de...",
+      "SUCCESS-MESSAGE": "Su cuenta ha sido activada. Por favor firme a continuación para iniciar el diseño y la ejecución de los procesos",
+      "FAILURE-MESSAGE": "Su cuenta no puede ser activado. Ya sea que ha sido activada o en el enlace de activación que ha caducado."
+    },
+    "RESET-PASSWORD-REQUEST": {
+      "MESSAGE": "¿Olvidó su contraseña? Ingresa tu dirección de correo electrónico a continuación para recibir un correo electrónico para restablecer su contraseña.",
+      "TITLE": "Restablecer contraseña",
+      "EMAIL": "Dirección de correo electrónico",
+      "EMAIL-PLACEHOLDER": "Introduzca su correo electrónico",
+      "SECURITY-SECTION": "Comprobación de seguridad",
+      "CONFIRM": "Solicitud de restablecimiento de contraseña",
+      "SUCCESS-MESSAGE": "Usted recibirá un correo electrónico en breve con un enlace para restablecer tu contraseña.",
+      "ERROR": {
+        "UNEXISTING-USER": "Usuario con la dirección de correo electrónico no existe."
+      }
+    },
+    "RESET-PASSWORD": {
+      "TITLE": "Restablecer contraseña",
+      "PASSWORD": "Contraseña",
+      "PASSWORD-CONFIRM": "Confirmar contraseña",
+      "PASSWORD-PLACEHOLDER": "Introduzca una nueva contraseña",
+      "PASSWORD-CONFIRM-PLACEHOLDER": "Confirme la nueva contraseña",
+      "CONFIRM": "Cambiar la contraseña",
+      "LOADING": "Restablecer contraseña...",
+      "SUCCESS-MESSAGE": "Su contraseña ha sido cambiada.",
+      "LOGIN": "Regístrate",
+      "FAILURE-MESSAGE": "Su contraseña no se puede restablecer. Restablecer el enlace no es válido o ha caducado."
+    }
+  },
+  "APP": {
+    "KICKSTART": {
+      "TITLE": "Editor de Procesos",
+      "DESCRIPTION": "Creá tus modelos de procesos y compartilos."
+    },
+    "TASKS": {
+      "TITLE": "La Tarea De La Aplicación",
+      "DESCRIPTION": "Acceder a su completa lista de tareas y trabajo en todas las tareas asignadas a usted de cualquier proceso de aplicación. También, iniciar nuevos procesos y tareas."
+    },
+    "IDENTITY-MANAGEMENT": {
+      "TITLE": "Administración de Usuarios",
+      "TITLE-TENANT-ADMIN": "Administración de Usuarios",
+      "DESCRIPTION": "Administrá tu perfil y como usuario administrador podes también administrar usuarios.",
+      "DESCRIPTION-TENANT-ADMIN": "Administrá grupos y usuarios."
+    },
+    "CUSTOM-APP": {
+      "TITLE-TASKS": "tareas",
+      "TITLE-PROCESSES": "los procesos de"
+    },
+    "POPUP": {
+      "ADD-APP-TITLE": "Agregar la aplicación a la página de destino",
+      "ADD-APP-SUMMARY": "Agregar una aplicación a tu página de aterrizaje"
+    },
+    "ACTION": {
+      "DELETE": "Quitar la aplicación"
+    },
+    "MESSAGE": {
+      "DELETED": "La aplicación se ha eliminado correctamente"
+    }
+  }
+}

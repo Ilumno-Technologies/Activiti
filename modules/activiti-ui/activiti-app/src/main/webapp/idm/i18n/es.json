@@ -1,0 +1,191 @@
+{
+  "IDM": {
+    "GENERAL": {
+      "MAIN-TITLE": "Activiti - Gestión De La Identidad",
+      "NAVIGATION": {
+        "PROFILE": "Personal",
+        "USER-MGMT": "Usuarios",
+        "GROUP-MGMT": "Grupos"
+      },
+      "ACTION": {
+        "CANCEL": "Cancelar",
+        "CREATE": "Crear",
+        "SAVE": "Guardar",
+        "CLOSE": "Cerrar",
+        "LOGOUT": "Señal de salida: ",
+        "ABOUT": "Sobre Alfresco Activiti"
+      },
+      "ERROR": {
+        "GENERIC": "Lo sentimos, ha ocurrido un error...",
+        "UNKNOWN": "Lo sentimos, ha ocurrido un error mientras se realiza la operación solicitada.",
+        "BAD_REQUEST": "Ha ocurrido un error mientras se realiza la operación solicitada",
+        "NOT_FOUND": "El recurso que está intentando acceder no existe",
+        "UNAUTHORIZED": "Usted debe firmar en el fin de realizar la operación solicitada.",
+        "FORBIDDEN": "No se permite realizar la operación solicitada",
+        "INTERNAL_SERVER_ERROR": "Lo siento, un error inesperado ocurrió mientras se realiza la operación solicitada."
+      }
+    },
+    "USER-MGMT": {
+      "TITLE": "La coincidencia de los usuarios",
+      "CREATE-USER": "Crear usuario",
+      "NAME-SEARCH": "Búsqueda por nombre",
+      "COMPANY": "Compañía",
+      "STATUS": "Estado",
+      "ACCOUNT": "Tipo de cuenta",
+      "ACTIONS": "Seleccione una acción",
+      "CHANGE-STATUS": "Cambio de estado",
+      "CHANGE-ACCOUNT-TYPE": "Cambiar el tipo de cuenta",
+      "CHANGE-PASSWORD": "Cambiar la contraseña",
+      "EDIT-USER": "Detalles del cambio",
+      "DELETE-USERS": "Eliminar",
+      "TOTAL-USERS": "total",
+      "INACTIVE-USERS": "inactivo",
+      "ENTERPRISE-USERS": "enterprise",
+      "ACTIVE-USERS": "activo",
+      "DELETED-USERS": "eliminado",
+      "ORDER-BY": "Order by",
+      "SHOW-NEXT": "Mostrar el siguiente",
+      "SHOW-PREVIOUS": "Mostrar el anterior",
+      "NO-MATCHING-USERS": "No encontró la coincidencia de los usuarios",
+      "MATCHING-USERS": "Encontrado {{total | number}} de usuario correspondiente(s), mostrando {{start + 1}} a {{start + size}}",
+      "ID": "ID",
+      "EMAIL": "Correo electrónico",
+      "NAME": "Nombre",
+      "CREATED": "Creado",
+      "TYPE": "Tipo",
+      "EXTERNAL-ID": "Externo id",
+      "LAST-SYNC-TIME": "Última actualización",
+      "FILTERS": {
+        "STATUS-ANY": "Cualquier estado",
+        "STATUS-ACTIVE": "Activo",
+        "STATUS-INACTIVE": "Inactivo",
+        "STATUS-PENDING": "Pendiente",
+        "STATUS-DELETED": "Eliminado",
+        "TYPE-ANY": "Cualquier tipo",
+        "SORT-DATE-NEWEST": "La fecha de creación más reciente",
+        "SORT-DATE-OLDEST": "Fecha de creación, la más antigua",
+        "SORT-EMAIL-A": "Correo Electrónico, A-Z",
+        "SORT-EMAIL-Z": "Correo Electrónico, Z-A",
+        "SORT-ID-A": "Id de usuario, A-Z",
+        "SORT-ID-Z": "Id de usuario, Z-a"
+      },
+      "POPUP": {
+        "CREATE-TITLE": "Crear usuario",
+        "EDIT-TITLE": "Editar los detalles del usuario",
+        "CREATE-ID": "Id de usuario",
+        "CREATE-EMAIL": "Correo electrónico",
+        "CREATE-INVALID-EMAIL": "No válido",
+        "CREATE-PASSWORD": "Contraseña",
+        "CREATE-FIRSTNAME": "Nombre",
+        "CREATE-LASTNAME": "Apellido",
+        "CREATE-TENANT": "Inquilino",
+        "CREATE-COMPANY": "Compañía",
+        "CREATE-STATUS": "Estado",
+        "CREATE-TYPE": "Tipo",
+        "BULK-UPDATE-TITLE": "Actualización masiva de los usuarios",
+        "BULK-UPDATE-NEW-STATUS": "Nuevo estado:",
+        "BULK-UPDATE-NEW-TYPE": "Nuevo tipo de cuenta:",
+        "BULK-UPDATE-EMAIL-NOTIFICATIONS": "Enviar notificaciones de correo electrónico para cambio de estado",
+        "BULK-UPDATE-STATUS-USERS": "Usted está a punto de actualizar el estado de estos {{length}} usuario(s):",
+        "BULK-UPDATE-TYPE-USERS": "Se va a actualizar el tipo de cuenta para estos {{length}} usuario(s):",
+        "BULK-UPDATE-CANCEL": "Cancelar y cerrar",
+        "BULK-UPDATE-CONFIRM": "Actualización de los usuarios",
+        "BULK-UPDATE-PASSWORD-TITLE": "Cambiar la contraseña",
+        "BULK-UPDATE-PASSWORD": "Contraseña",
+        "BULK-UPDATE-PASSWORD-REPEAT": "Repita la contraseña",
+        "BULK-UPDATE-PASSWORD-CONFIRM": "Cambio"
+      }
+    },
+    "FUNCTIONAL-GROUP-MGMT": {
+      "CREATE": "Crear grupo",
+      "NO-GROUPS": "No hay grupos que",
+      "NO-SELECTION": "Seleccione un grupo de la lista de la izquierda",
+      "SYNC-DETAILS": "Los detalles de sincronización",
+      "EXTERNAL-ID": "Externos de identificación de:",
+      "LAST-SYNC-TIME": "Última actualización:",
+      "MEMBERS": "Los miembros del grupo",
+      "SUBGROUPS": "Subgrupos",
+      "NO-MEMBERS": "Los usuarios No encuentran",
+      "ADD-USER": "+ agregar usuario",
+      "ADD-SUBGROUP": "+ añadir subgrupo",
+      "NO-SUBGROUPS": "No hay subgrupos",
+      "USER-ADDED": "Los usuarios se han agregado al grupo",
+      "INACTIVE": "desactivado",
+      "INACTIVE-DESCRIPTION": "Este grupo ha sido desactivada. Los usuarios todavía será capaz de completar la actualidad de las tareas asignadas a este grupo, pero las nuevas definiciones de proceso no puede utilizar este grupo de más.",
+      "ADD-POPOVER-TITLE": "Seleccione el usuario",
+      "POPUP": {
+        "CREATE-TITLE": "Crear grupo",
+        "CREATE-ID": "Id de grupo",
+        "CREATE-NAME": "Nombre",
+        "DELETE-TITLE": "Eliminar grupo",
+        "DELETE-DESCRIPTION": "Estás seguro de que desea eliminar este grupo?",
+        "DELETE-CONFIRM": "Confirmar",
+        "DEACTIVATE-TITLE": "Desactivar el grupo",
+        "DEACTIVATE-DESCRIPTION": "Estás seguro de que desea eliminar este grupo? Esto eliminará todos los sub grupos. Tenga en cuenta que un grupo va a ser desactivado, de tal manera que las tareas de los procesos puede ser correctamente terminado. Hacer clic en el botón de eliminación de una segunda vez para borrar el grupo completo.",
+        "DELETE-MEMBER-TITLE": "Eliminar miembros del grupo",
+        "DELETE-MEMBER-DESCRIPTION": "Estás seguro de que desea eliminar este usuario del grupo?",
+        "ADD-MEMBER-TITLE": "Agregar usuario",
+        "ADD-MEMBER-NO-USERS": "Los usuarios No encuentran",
+        "ADD-MEMBER-CONFIRM": "Add ({{selectedUsers.length}})",
+        "ACTIVATE-TITLE": "Activar el grupo",
+        "ACTIVATE-DESCRIPTION": "Activar este grupo de nuevo? Esto significa que este grupo sería de nuevo eligble para la asignación de tareas. Tenga en cuenta que los subgrupos de un grupo no están activadas de forma predeterminada.",
+        "ACTIVATE-CONFIRM": "Activar",
+        "EDIT-TITLE": "Grupo de edición"
+      }
+    },
+    "PROFILE-MGMT": {
+      "CREATED": "Registrado desde",
+      "CHANGE-PASSWORD": "Cambiar la contraseña",
+      "DETAILS": "Detalles",
+      "DETAILS-DESCRIPTION": "Haga clic en cualquiera de los campos a continuación para cambiar",
+      "FIRST-NAME": "Nombre",
+      "NOTHING-SET": "Nada de lo establecido",
+      "LAST-NAME": "Apellido",
+      "EMAIL": "Correo electrónico",
+      "COMPANY": "Compañía",
+      "GROUPS": "Los grupos",
+      "POPUP": {
+        "UPLOAD-PICTURE-TITLE": "Cambio de imagen",
+        "UPLOAD-PICTURE-DESCRIPTION": "Por favor, seleccione una imagen desde tu ordenador o caída en la zona de abajo.",
+        "UPLOAD-PICTURE-CANCEL-UPLOAD": "Cancelar subir",
+        "UPLOAD-PICTURE-DROPZONE": "Colocar el logotipo de archivo de imagen aquí",
+        "UPLOAD-PICTURE-NO-DROP": "Soltar no es compatible con tu navegador",
+        "UPLOAD-PICTURE-ERROR": "Error",
+        "CHANGE-PASSWORD-TITLE": "Cambiar la contraseña",
+        "CHANGE-PASSWORD-ORIGINAL": "Contraseña Original",
+        "CHANGE-PASSWORD-NEW-PASSWORD": "Nueva contraseña",
+        "CHANGE-PASSWORD-NEW-PASSWORD2": "Repita la nueva contraseña",
+        "CHANGE-PASSWORD-CONFIRM": "Confirmar",
+        "CHANGE-PASSWORD-NOT-MATCHING": "Las contraseñas no coinciden",
+        "CHANGE-PASSWORD-INVALID": "La contraseña no válida"
+      }
+    },
+    "USERS": {
+      "TITLE": "Administración de usuarios",
+      "ACTION": {
+        "CREATE": "Crear usuario"
+      }
+    }
+  },
+  "GENERAL": {
+    "ACTION": {
+      "CLOSE": "Cerca de"
+    },
+    "MESSAGE": {
+      "SELECT-PEOPLE-HELP": "Uso y uparrow; y &flecha hacia abajo; para seleccionar y pulse enter para confirmar",
+      "SELECT-GROUP-HELP": "Uso y uparrow; y &flecha hacia abajo; para seleccionar y pulse Enter para confirmar",
+      "SELECT-GROUP-SEARCH-PLACEHOLDER": "Búsqueda de grupo",
+      "SELECT-GROUP-NO-MATCHING-RESULTS": "Utilice el cuadro de búsqueda de arriba para encontrar grupos."
+    },
+    "TITLE": {
+      "MATCHING-PEOPLE": "La coincidencia de la gente",
+      "SELECT-GROUP": "Seleccione el grupo",
+      "MATCHING-GROUPS": "La coincidencia de los grupos de"
+    }
+  },
+  "INVOLVE-PEOPLE": {
+    "ACTION-SELECT": "Seleccione",
+    "SEARCH-PLACEHOLDER": "Búsqueda por nombre",
+    "NO-MATCHING-RESULTS": "Utilice el cuadro de búsqueda de arriba para encontrar a los usuarios"
+  }
+}
